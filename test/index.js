@@ -1,12 +1,12 @@
 
 let chai = require('chai')
-chai.use(require('chai-fs'))
 let expect = chai.expect
+chai.use(require('chai-fs'))
 
 let fsSandbox = require('alexbinary.fs-sandbox')
-let touchp = require('./../src/index')
-
 fsSandbox.setRoot(__dirname)
+
+let touchp = require('./../src/index')
 
 describe('touchp', function () {
   it('promise', function (done) {
