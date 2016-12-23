@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "repository": "https://github.com/alexbinary/touchp.git",
+  "bugs": "https://github.com/alexbinary/touchp/issues",
   "author": "Alexandre Bintz <alexandre@bintz.io>",
   "license": "MIT",
   "scripts": {
