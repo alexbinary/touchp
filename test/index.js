@@ -1,9 +1,9 @@
 
-let expect = require('chai').expect
+let chai = require('chai')
+chai.use(require('chai-fs'))
+let expect = chai.expect
 
 let fsSandbox = require('alexbinary.fs-sandbox')
-let fileexists = require('alexbinary.file-exists')
-
 let touchp = require('./../src/index')
 
 fsSandbox.setRoot(__dirname)
@@ -16,7 +16,7 @@ describe('touchp', function () {
     // ## TEST
     touchp(filepath).then(() => {
       // ## Assert
-      expect(fileexists.sync(filepath)).to.be.true
+      expect(filepath).to.be.a.file()
       // ## Teardown
       fsSandbox.rmSync()
       // ## End
@@ -30,7 +30,7 @@ describe('touchp', function () {
     touchp(filepath, (err) => {
       // ## Assert
       expect(err).to.be.null
-      expect(fileexists.sync(filepath)).to.be.true
+      expect(filepath).to.be.a.file()
       // ## Teardown
       fsSandbox.rmSync()
       // ## End
@@ -44,7 +44,7 @@ describe('touchp', function () {
     // ## TEST
     touchp.sync(filepath)
     // ## Assert
-    expect(fileexists.sync(filepath)).to.be.true
+    expect(filepath).to.be.a.file()
     // ## Teardown
     fsSandbox.rmSync()
     // ## End
