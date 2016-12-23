@@ -1,5 +1,5 @@
 # touchp
-Promisified version of touchp 🙀
+Simple touchp with promise support 🙀
 
 ## Install
 

@@ -1,6 +1,6 @@
 {
   "name": "alexbinary.touchp",
-  "description": "Promisified version of touchp 🙀",
+  "description": "Simple touchp with promise support 🙀",
   "version": "1.0.0",
   "main": "src/index.js",
   "repository": "https://github.com/alexbinary/touchp.git",
