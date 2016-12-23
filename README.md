@@ -3,13 +3,16 @@ Simple touchp with promise support 🙀
 
 ## Install
 
-Install with npm/yarn :
+This package is not hosted on the NPM registry.
+You can install directly from GitHub using the npm or yarn client :
 
+```bash
+$ npm install alexbinary/touchp
+# or
+$ yarn add alexbinary/touchp
 ```
-$ npm install https://github.com/alexbinary/touchp.git
 
-$ yarn add https://github.com/alexbinary/touchp.git
-```
+This will install the latest version from the `master` branch, which sould always be the latest stable version.
 
 ## Usage
 
