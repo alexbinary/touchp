@@ -7,8 +7,8 @@ abbrev@1, abbrev@1.0.x:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
 
 "alexbinary.file-exists@https://github.com/alexbinary/file-exists.git":
-  version "1.0.0"
-  resolved "https://github.com/alexbinary/file-exists.git#bac3b143e066c261b3d7e5b99d1e31a562ae1903"
+  version "1.0.1"
+  resolved "https://github.com/alexbinary/file-exists.git#6adb010b5b15e197cf810c941dd75c21c242c973"
   dependencies:
     alexbinary.promisify "https://github.com/alexbinary/promisify.git"
 
