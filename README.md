@@ -19,9 +19,21 @@ This will install the latest version from the `master` branch, which sould alway
 ```javascript
 let touchp = require('alexbinary.touchp')
 
+// promise
 touchp('/foo/bar').then(() => {
   console.log('file created')
 })
+
+// callback
+touchp('/foo/bar', (err) => {
+  if (!err) {
+    console.log('file created')
+  }
+})
+
+// sync
+touchp.sync('/foo/bar')
+console.log('file created')
 ```
 
 ## Licence
