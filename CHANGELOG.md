@@ -2,6 +2,8 @@
 
 ## upcoming release
 
+- update dependencies
+
 ## v1.0.1
 
 - fix/improve readme
