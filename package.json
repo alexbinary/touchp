@@ -24,7 +24,7 @@
     "testw": "mocha -w"
   },
   "dependencies": {
-    "alexbinary.promisify": "https://github.com/alexbinary/promisify.git",
+    "@alexbinary/promisify": "^3.0.1",
     "touchp": "^0.1.1"
   },
   "devDependencies": {
