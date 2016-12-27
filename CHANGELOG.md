@@ -2,8 +2,8 @@
 
 ## upcoming release
 
-- update dependencies
 - readme: add acknowledgement notice
+- update dependencies
 
 ## v1.0.1
 
