@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Simple touchp with promise support 🙀",
   "keywords": [
-    "callback",
-    "nodeback",
-    "callbackify",
-    "callbackification",
-    "async"
+    "touch",
+    "touchp",
+    "fs",
+    "new"
+    "file",
+    "create"
   ],
   "homepage": "https://github.com/alexbinary/touchp#readme",
   "bugs": {
