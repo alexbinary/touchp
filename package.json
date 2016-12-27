@@ -1,6 +1,6 @@
 {
   "name": "@alexbinary/touchp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple touchp with promise support 🎉",
   "keywords": [
     "touch",
@@ -24,7 +24,7 @@
     "testw": "mocha -w"
   },
   "dependencies": {
-    "alexbinary.promisify": "https://github.com/alexbinary/promisify.git",
+    "@alexbinary/promisify": "^3.0.1",
     "touchp": "^0.1.1"
   },
   "devDependencies": {
