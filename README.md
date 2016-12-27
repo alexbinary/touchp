@@ -37,6 +37,24 @@ touchp.sync('/foo/bar')
 console.log('file created')
 ```
 
+## Documentation
+
+```javascript
+let touchp = require('@alexbinary/touchp')
+```
+
+### touchp(filepath[, callback])
+
+Creates an empty file at `filepath`.
+Creates intermediary directories if necessary.
+
+`callback` is an optional node style callback with no arguments except for a possible error.  
+Always returns a Promise which resolves with no arguments.
+
+### touchp.sync(filepath)
+
+Synchronous version. Returns `undefined`.
+
 ## Licence
 
 MIT
