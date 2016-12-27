@@ -18,7 +18,7 @@ This will install the latest version from the `master` branch, which sould alway
 ## Usage
 
 ```javascript
-let touchp = require('alexbinary.touchp')
+let touchp = require('@alexbinary/touchp')
 
 // promise
 touchp('/foo/bar').then(() => {
