@@ -20,8 +20,8 @@ abbrev@1, abbrev@1.0.x:
     touchp "^0.1.1"
 
 "alexbinary.promisify@https://github.com/alexbinary/promisify.git":
-  version "3.0.1"
-  resolved "https://github.com/alexbinary/promisify.git#99ef9a79549a931a1fe144176800abe17f85c20a"
+  version "3.0.2"
+  resolved "https://github.com/alexbinary/promisify.git#0b145be9058a9502456539ce71eca23492de4de6"
 
 align-text@^0.1.1, align-text@^0.1.3:
   version "0.1.4"
