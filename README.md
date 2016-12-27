@@ -5,6 +5,8 @@ Simple touchp with promise support 🎉
 [![npm](https://img.shields.io/npm/v/@alexbinary/touchp.svg)](https://www.npmjs.com/package/@alexbinary/touchp)
 [![GitHub release](https://img.shields.io/github/release/alexbinary/touchp.svg?label="github")](https://github.com/alexbinary/touchp/releases/latest)
 
+Based on [touchp](https://www.npmjs.com/package/touchp) by [rschmukler](https://www.npmjs.com/~rschmukler)
+
 ## Install
 
 Install using npm or yarn :

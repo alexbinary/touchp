@@ -3,6 +3,7 @@
 ## upcoming release
 
 - update dependencies
+- readme: add acknowledgement notice
 
 ## v1.0.1
 
