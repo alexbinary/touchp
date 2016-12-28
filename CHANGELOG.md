@@ -2,6 +2,8 @@
 
 ## upcoming release
 
+- fix require
+
 ## v1.0.2
 
 - readme: add acknowledgement notice
