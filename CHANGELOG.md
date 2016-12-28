@@ -3,6 +3,7 @@
 ## upcoming release
 
 - fix require
+- update dependencies
 
 ## v1.0.2
 
