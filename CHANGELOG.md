@@ -2,6 +2,8 @@
 
 ## upcoming release
 
+## v1.0.3
+
 - fix require
 - update dependencies
 
