@@ -55,7 +55,7 @@ Always returns a Promise which resolves with no arguments.
 
 ### touchp.sync(filepath)
 
-Synchronous version. Returns `undefined`.
+Synchronous version.
 
 ## Licence
 

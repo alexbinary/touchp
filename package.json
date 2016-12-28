@@ -1,6 +1,6 @@
 {
   "name": "@alexbinary/touchp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple touchp with promise support 🎉",
   "keywords": [
     "touch",
