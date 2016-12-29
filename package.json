@@ -21,7 +21,8 @@
   "repository": "https://github.com/alexbinary/touchp.git",
   "scripts": {
     "test": "istanbul cover _mocha",
-    "testw": "mocha -w"
+    "testw": "mocha -w",
+    "prepublish": "mocha"
   },
   "dependencies": {
     "@alexbinary/promisify": "^3.0.1",
