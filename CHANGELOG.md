@@ -2,6 +2,14 @@
 
 ## upcoming release
 
+## v1.0.4
+
+- add David (DM) badge
+- configure Travis (CI) with automated deploy to NPM
+- add prepublish script
+- change package description
+- minor documentation update
+
 ## v1.0.3
 
 - fix require

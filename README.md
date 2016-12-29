@@ -4,8 +4,13 @@ Simple touchp with promise support 🎉
 
 [![npm](https://img.shields.io/npm/v/@alexbinary/touchp.svg)](https://www.npmjs.com/package/@alexbinary/touchp)
 [![GitHub release](https://img.shields.io/github/release/alexbinary/touchp.svg?label="github")](https://github.com/alexbinary/touchp/releases/latest)
+[![Build Status](https://travis-ci.org/alexbinary/touchp.svg)](https://travis-ci.org/alexbinary/touchp)
+[![dependencies Status](https://david-dm.org/alexbinary/touchp/status.svg)](https://david-dm.org/alexbinary/touchp)
+[![devDependencies Status](https://david-dm.org/alexbinary/touchp/dev-status.svg)](https://david-dm.org/alexbinary/touchp?type=dev)
 
 Based on [touchp](https://www.npmjs.com/package/touchp) by [rschmukler](https://www.npmjs.com/~rschmukler)
+
+Uses [@alexbinary/promisify](https://www.npmjs.com/package/@alexbinary/promisify) by [alexbinary](https://www.npmjs.com/~alexbinary)
 
 ## Install
 
